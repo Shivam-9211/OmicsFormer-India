@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Large datasets
+data/raw/
+data/merged/
+data/processed/
+
+# Models and outputs
+models/
+results/
+
+# OS files
+.DS_Store
+Thumbs.db
