@@ -1,6 +1,6 @@
 import pandas as pd 
 
-# data=pd.read_csv("data\merged\protein.tsv", sep='\t')
+data=pd.read_csv("data\merged\protein.tsv", sep='\t')
 
 # ========***================****====================*****===================*****======================***=====
 # First checking-
@@ -54,13 +54,15 @@ import pandas as pd
 # numeric = numeric.sub(mean, axis=0)
 # numeric = numeric.div(std, axis=0)
 
-# data.iloc[:, 1:] = numeric
 # print(numeric.mean(axis=1).round(6).head())
 # print(numeric.std(axis=1).round(6).head())
 
-# # ===========*****===================================*****=========================****======================****======
+# numeric.index = data["peptide_target"]
 
-# data.to_hdf(
+
+# numeric = numeric.T            #  rows become patients
+
+# numeric.to_hdf(
 #     "data/processed/protein.h5",
 #     key="protein",
 #     mode="w")
