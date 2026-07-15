@@ -1,0 +1,4 @@
+
+Cancer Classes
+['BRCA' 'COAD' 'KIRC' 'LIHC' 'LUAD']
+Accuracy: 0.3474025974025974

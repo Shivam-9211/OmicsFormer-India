@@ -1,0 +1,64 @@
+_wandb:
+    value:
+        cli_version: 0.27.2
+        e:
+            spokyjvk03a1u7nrfhl7rt6p0axyivdm:
+                codePath: src\baseline_protein.py
+                codePathLocal: src\baseline_protein.py
+                cpu_count: 8
+                cpu_count_logical: 12
+                cudaVersion: "12.7"
+                disk:
+                    /:
+                        total: "510315008000"
+                        used: "239094018048"
+                email: sr5609312@gmail.com
+                executable: C:\Users\shiva\anaconda3\envs\chirag_ai\python.exe
+                git:
+                    commit: e1088c9aaca1752d9c5986b511f624787f83d3c5
+                    remote: https://github.com/Shivam-9211/OmicsFormer-India.git
+                gpu: NVIDIA GeForce RTX 3050 4GB Laptop GPU
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Ampere
+                      cudaCores: 2560
+                      memoryTotal: "4294967296"
+                      name: NVIDIA GeForce RTX 3050 4GB Laptop GPU
+                      uuid: GPU-a9fd66f9-707e-50b8-77f8-9d7b756294cd
+                host: Asus_Vivobook
+                memory:
+                    total: "16833912832"
+                os: Windows-10-10.0.26200-SP0
+                program: c:\Users\shiva\OmicsFormer-India\src\baseline_protein.py
+                python: CPython 3.10.20
+                root: C:\Users\shiva\OmicsFormer-India
+                startedAt: "2026-07-14T17:02:04.924211Z"
+                writerId: spokyjvk03a1u7nrfhl7rt6p0axyivdm
+        m: []
+        python_version: 3.10.20
+        t:
+            "1":
+                - 5
+                - 53
+            "2":
+                - 5
+                - 53
+            "3":
+                - 13
+                - 16
+            "4": 3.10.20
+            "5": 0.27.2
+            "8":
+                - 3
+            "12": 0.27.2
+            "13": windows-amd64
+class_weight:
+    value: balanced
+modality:
+    value: protein
+model:
+    value: RandomForest
+n_estimators:
+    value: 100
+random_state:
+    value: 42

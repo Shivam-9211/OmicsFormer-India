@@ -1,0 +1,47 @@
+
+Cancer Classes
+['BRCA' 'COAD' 'KIRC' 'LIHC' 'LUAD']
+
+Training Random Forest...
+Training completed!
+
+Predicting on test set...
+Prediction completed!
+
+First 10 Predictions
+[0 3 2 0 2 0 3 0 4 4]
+
+First 10 Actual Labels
+[0 3 2 0 2 0 3 0 4 4]
+
+Accuracy : 0.9935
+
+Classification Report
+              precision    recall  f1-score   support
+
+        BRCA       0.98      1.00      0.99       111
+        COAD       1.00      0.98      0.99        49
+        KIRC       1.00      0.98      0.99        50
+        LIHC       1.00      1.00      1.00        35
+        LUAD       1.00      1.00      1.00        63
+
+    accuracy                           0.99       308
+   macro avg       1.00      0.99      0.99       308
+weighted avg       0.99      0.99      0.99       308
+
+
+Confusion Matrix
+[[111   0   0   0   0]
+ [  1  48   0   0   0]
+ [  1   0  49   0   0]
+ [  0   0   0  35   0]
+ [  0   0   0   0  63]]
+BRCA AUC : 1.0000
+COAD AUC : 1.0000
+KIRC AUC : 1.0000
+LIHC AUC : 1.0000
+LUAD AUC : 1.0000
+
+ROC curve saved to results/protein_roc.png
+
+Model saved to models/random_forest_protein.pkl
