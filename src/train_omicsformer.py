@@ -144,8 +144,7 @@ for epoch in range(epochs):
 
         torch.save(
             model.state_dict(),
-            "models/omicsformer_best.pth"
-        )
+            "models/omicsformer_best.pt")
 
 
 print("\nTraining Finished!")
@@ -177,7 +176,7 @@ plt.close()
 # Load Best Model
 
 model.load_state_dict(
-    torch.load("models/omicsformer_best.pth")
+    torch.load("models/omicsformer_best.pt")
 )
 
 model.eval()
